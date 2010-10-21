@@ -18,7 +18,7 @@ if ( ! defined('EXT'))
 class Wygwam_tweaks_ext {
   
   var $name           = 'Wygwam Tweaks';
-  var $version        = '0.1';
+  var $version        = '1.0';
   var $description    = '';
   var $settings_exist = 'n';
   var $docs_url       = '';
@@ -118,7 +118,8 @@ class Wygwam_tweaks_ext {
     // get rid of the upload tab
 		$config['filebrowserUploadUrl'] = FALSE;
 		$config['filebrowserImageUploadUrl'] = FALSE;
-		$config['filebrowserFlashUploadUrl'] = FALSE;		
+		$config['filebrowserFlashUploadUrl'] = FALSE;
+		
 		return $config;
 	}	
   	
